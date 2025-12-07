@@ -1,0 +1,11 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Disallow sensitive areas
+Disallow: /dashboard/
+Disallow: /handler/
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://spotyfire-frontend.vercel.app/sitemap.xml
